@@ -1,0 +1,55 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.nps.jhsimple",
+      "nativeLanguage": "en"
+    },
+    "bundleName": "npsjhipster1-bundle",
+    "dockerOrganization": "nshaw",
+    "generateMicroFrontends": "always",
+    "jhipsterVersion": "6.9.0",
+    "applicationType": "microservice",
+    "baseName": "npsjhipster1",
+    "packageName": "com.nps.jhsimple",
+    "packageFolder": "com/nps/jhsimple",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OWU3NWZkNWRmOThhNTZkYmI5ZTM0NjcwN2Y0YzRlMjg3MDY0NzhjMzM1MTRjYmNlNGMyMGU5NTQxYTY0ODc3ZTYzYWVjM2VkNDE5YmY4ZjVhMzk0OTNiOGE5MDQzNTRkYTEzOWFmNDJlY2U2NDRmOTI1Njc0YThlZGE3MTYwNmI=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1594062906631,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "skipCheckLengthOfIdentifier": false,
+    "otherModules": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "6.2.0"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "6.2.0"
+      }
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
